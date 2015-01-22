@@ -101,11 +101,10 @@ noToc: true
 ### Models, resource models, and collections 
 
 - Describe the basic concepts of models, resource models, and collections, and the relationship they have to one another 
-
 - Configure a database connection
 - Describe how Magento works with database tables 
 - Describe the load-and-save process for a regular entity
-- Describe the load-and-save process for a regular entity
+- Describe group save operations
 - Describe the role of Zend_Db_Select in Magento
 - Describe the collection interface (filtering/sorting/grouping) 
 - Describe the hierarchy of database-related classes in Magento 
