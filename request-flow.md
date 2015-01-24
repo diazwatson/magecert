@@ -18,10 +18,10 @@ Exam proportion: 7%.
 3. `Mage::run()`
 	1. Instantiate `Mage_Core_Model_App`
 	2. Instantiate the Config model
-	3. `$app-run()`
+	3. `$app->run()`
 		1. `baseInit()` - load the base config and initialise cache.
 		2. `initModules()` - load module configuration.
-		3. Run all the required SQL install and upgrade scripts
+		3. `applyAllUpdates()`and `applyAllDataUpdates()` - Run all the required SQL install and upgrade scripts
 		4. Setup the locale
 		5. `initCurrentStore()` - load store configuration and instantiate the store model
 		6. `initRequest()` - load the request information into the model
