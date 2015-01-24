@@ -49,7 +49,7 @@ However, the resulting list will include many obsolete classes from the `Mage_Sa
 
 The only modules containing entities using the EAV storage schema are `Mage_Catalog` (categories and products) and `Mage_Customer` (customers and addresses). 
 
-Customer Groups use the flat table storage schema. All the sales entities where converted to flat table entities with the release of Magento 1.4.
+Customer Groups use the flat table storage schema. All the sales entities were converted to flat table entities with the release of Magento 1.4.
 
 The reason that EAV is used is so that entities can have an undetermined number of properties and therefore remain flexible. For example, when you add a new attribute to a Customer entity (which is an EAV entity), the database table does not need to be altered for this new attribute to be added.
 
